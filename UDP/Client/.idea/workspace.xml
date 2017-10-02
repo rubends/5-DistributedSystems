@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d999165-7fac-4aca-a3fd-f30e077f62bd" name="Default" comment="" />
+    <list default="true" id="f461ebed-cc78-4635-a4f2-bdcbb8185a45" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,10 +24,10 @@
       </file>
     </leaf>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="25" />
-    <option name="width" value="1400" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="236" />
+    <option name="y" value="24" />
+    <option name="width" value="1473" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -135,16 +135,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d999165-7fac-4aca-a3fd-f30e077f62bd" name="Default" comment="" />
-      <created>1506936113836</created>
+      <changelist id="f461ebed-cc78-4635-a4f2-bdcbb8185a45" name="Default" comment="" />
+      <created>1506936796985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1506936113836</updated>
+      <updated>1506936796985</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="25" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
