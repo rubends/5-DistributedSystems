@@ -1,4 +1,4 @@
-package com.company;
+package fti.ua.be;
 
 import java.util.Scanner;
 import java.io.*;
@@ -26,6 +26,8 @@ public class Main {
             if(readAnsw > -1){
                 DatagramPacket sendToServer = new DatagramPacket(bufferArray, readAnsw, IPAddress, serverPort);
                 clientSocket.send(sendToServer);
+
+                // Voorkomen dat paketten verloren gaan door te snel sturen
                 Thread.sleep(20);
             }
         }

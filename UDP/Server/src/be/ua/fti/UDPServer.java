@@ -6,7 +6,7 @@ import java.net.InetAddress;
 
 public class UDPServer {
 
-    private static int FILESIZE = 243413;
+    private static int FILESIZE = 243413; // size of the expected file in bytes
     private static String OKMESSAGE = "File received OK";
 
     public static void main(String[] args) throws Exception {

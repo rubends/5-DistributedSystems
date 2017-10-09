@@ -1,4 +1,4 @@
-package com.company;
+package fti.ua.be;
 
 import java.util.Scanner;
 import java.io.*;

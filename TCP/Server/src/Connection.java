@@ -4,9 +4,9 @@ import java.net.Socket;
 class Connection extends Thread
 
 {
-    InputStream in;
-    DataOutputStream out;
-    Socket clientSocket;
+    private InputStream in;
+    private DataOutputStream out;
+    private Socket clientSocket;
 
     public Connection(Socket aClientSocket) {
         try {
