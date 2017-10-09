@@ -1,10 +1,8 @@
 package com.company;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.io.*;
 import java.net.*;
-import java.nio.file.Files;
 
 public class Main {
 
@@ -28,6 +26,7 @@ public class Main {
             if(readAnsw > -1){
                 DatagramPacket sendToServer = new DatagramPacket(bufferArray, readAnsw, IPAddress, serverPort);
                 clientSocket.send(sendToServer);
+                Thread.sleep(20);
             }
         }
         DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
