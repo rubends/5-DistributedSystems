@@ -1,5 +1,6 @@
 # DistributedSystems-prac1
 Project voor 5-Distributed Systems
+
 Bevat 4 java programma's:
 * TCP server
 * TCP client
@@ -9,4 +10,5 @@ Bevat 4 java programma's:
 Het testbestand (success.jpg) bevindt zich in de rootmap.
 
 Ruben De Swaef
+
 Imre Liessens
