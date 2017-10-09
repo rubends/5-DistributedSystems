@@ -8,11 +8,11 @@ import java.nio.file.Files;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        //D:\Ruben\Documents\EI\3-Distributed systems\Practica\labo2-10.dockx
+        //D:\Ruben\Documents\EI\3-Distributed systems\Practica\Labo2-10\DistributedSystems-prac1\success.jpg
         int serverPort = 7896;
         String host = "localhost";
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a file name: ");
+        System.out.print("Enter a file: ");
         System.out.flush();
         String filename = scanner.nextLine();
         File file = new File(filename);

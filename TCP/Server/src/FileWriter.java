@@ -8,7 +8,7 @@ public class FileWriter {
 
     public FileWriter() {
         try {
-           stream = new FileOutputStream("output.bin");
+           stream = new FileOutputStream("output.jpg");
         } catch (FileNotFoundException e) {
             System.out.println("Kan bestand niet schrijven.");
         }

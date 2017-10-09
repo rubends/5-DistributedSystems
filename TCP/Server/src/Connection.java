@@ -41,7 +41,9 @@ class Connection extends Thread
             try {
                 clientSocket.close();
                 writer.close();
-            } catch (IOException e) {/*close failed*/}
+            } catch (IOException e) {
+                System.out.println("Close failed");
+            }
         }
     }
 }
