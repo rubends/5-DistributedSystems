@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UDPserver.iml" filepath="$PROJECT_DIR$/UDPserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UDPServer.iml" filepath="$PROJECT_DIR$/UDPServer.iml" />
     </modules>
   </component>
 </project>
