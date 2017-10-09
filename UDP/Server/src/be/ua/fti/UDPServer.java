@@ -6,14 +6,14 @@ import java.net.InetAddress;
 
 public class UDPServer {
 
-    private static int FILESIZE = 9573312;
+    private static int FILESIZE = 243413;
     private static String OKMESSAGE = "File received OK";
 
     public static void main(String[] args) throws Exception {
         FileController file = new FileController();
 
         DatagramSocket serverSocket = new DatagramSocket(9876);
-        byte[] receiveData = new byte[16 * 1024];
+        byte[] receiveData = new byte[60 * 1024];
 
         int receivedSize = 0;
         InetAddress IPAddress = InetAddress.getLocalHost(); // initial value
