@@ -13,14 +13,15 @@ public class BankEngine implements Bank {
         super();
     }
 
+    // Geen nood aan synchronized aangezien er geen mutatie is
     public float getBalance() throws java.rmi.RemoteException {
         return balance;
     }
-    public boolean deposit(float amount) throws java.rmi.RemoteException {
+    public synchronized boolean deposit(float amount) throws java.rmi.RemoteException {
         balance += amount;
         return true;
     }
-    public boolean withdraw(float amount) throws java.rmi.RemoteException {
+    public synchronized boolean withdraw(float amount) throws java.rmi.RemoteException {
         if(amount <= balance){
             balance-= amount;
             return true;
