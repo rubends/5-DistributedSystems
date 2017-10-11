@@ -1,6 +1,8 @@
 package be.ua.bank;
 
-public interface Bank {
+import java.rmi.Remote;
+
+public interface Bank extends Remote{
 
     float getBalance();
     boolean deposit(float amount);

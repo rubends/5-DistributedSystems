@@ -1,3 +1,5 @@
+package be.ua.bank;
+
 public interface Bank extends java.rmi.Remote {
 
     public float getBalance() throws java.rmi.RemoteException;

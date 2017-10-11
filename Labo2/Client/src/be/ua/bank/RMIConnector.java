@@ -18,7 +18,6 @@ public class RMIConnector {
             bank = (Bank) registry.lookup(name);
         } catch (Exception e) {
             e.printStackTrace();
-            System.exit(1);
         }
     }
 

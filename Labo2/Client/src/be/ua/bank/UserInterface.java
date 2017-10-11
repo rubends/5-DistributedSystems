@@ -15,7 +15,7 @@ public class UserInterface {
 
     private void setup() {
             // Eventueel vragen aan gebruiker
-            RMIConnector connector =new  RMIConnector("localhost");
+            RMIConnector connector =new RMIConnector("localhost");
             bank = connector.getBank();
     }
 
