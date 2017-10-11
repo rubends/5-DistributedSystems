@@ -9,6 +9,7 @@ public class RMIConnector {
 
     public RMIConnector(String serverIP) {
         if (System.getSecurityManager() == null) {
+            System.setProperty("java.security.policy","file:src/client.policy");
             System.setSecurityManager(new SecurityManager());
         }
         try {
@@ -17,6 +18,7 @@ public class RMIConnector {
             bank = (Bank) registry.lookup(name);
         } catch (Exception e) {
             e.printStackTrace();
+            System.exit(1);
         }
     }
 
