@@ -40,7 +40,8 @@ public class BankEngine implements Bank {
             Bank bankEngine = new BankEngine();
             Bank stub =
                     (Bank) UnicastRemoteObject.exportObject(bankEngine, 0);
-            Registry registry = LocateRegistry.getRegistry();
+            Registry registry = LocateRegistry.createRegistry(1099);
+            //Registry registry = LocateRegistry.getRegistry("localhost");
             registry.rebind(bankName, stub);
             System.out.println("bankEngine bound");
         } catch (Exception e) {
