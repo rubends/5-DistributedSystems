@@ -7,16 +7,15 @@ public class UserInterface {
     private Scanner input;
     private Bank bank;
 
-    public UserInterface() {
+    public UserInterface(String ip) {
         input = new Scanner(System.in);
         System.out.println("Welcome to the bank");
-        setup();
+        setup(ip);
         startUI();
     }
 
-    private void setup() {
-            // Eventueel vragen aan gebruiker
-            RMIConnector connector =new RMIConnector("localhost");
+    private void setup(String ip) {
+            RMIConnector connector =new RMIConnector(ip);
             bank = connector.getBank();
     }
 

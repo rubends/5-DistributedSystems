@@ -8,10 +8,11 @@ public class RMIConnector {
     private Bank bank;
 
     public RMIConnector(String serverIP) {
-        if (System.getSecurityManager() == null) {
-            System.setProperty("java.security.policy","file:src/client.policy");
-            System.setSecurityManager(new SecurityManager());
-        }
+        // onnodig indien geen codebase gebruikt wordt
+       // if (System.getSecurityManager() == null) {
+           // System.setProperty("java.security.policy","file:src/client.policy");
+         //   System.setSecurityManager(new SecurityManager());
+       // }
         try {
             String name = "Bank";
             Registry registry = LocateRegistry.getRegistry(serverIP);
